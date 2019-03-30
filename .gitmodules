@@ -1,0 +1,12 @@
+[submodule "thirdparty/PHPMailer"]
+	path = thirdparty/PHPMailer
+	url = https://github.com/PHPMailer/PHPMailer.git
+[submodule "thirdparty/php-selector"]
+	path = thirdparty/php-selector
+	url = https://github.com/tj/php-selector.git
+[submodule "thirdparty/PayPal-PHP-SDK"]
+	path = thirdparty/PayPal-PHP-SDK
+	url = https://github.com/paypal/PayPal-PHP-SDK.git
+[submodule "thirdparty/rss-php"]
+	path = thirdparty/rss-php
+	url = https://github.com/dg/rss-php.git

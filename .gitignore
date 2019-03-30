@@ -1,0 +1,6 @@
+/config/system.ini
+*~
+*.swp
+*.swo
+.htaccess
+test.*
