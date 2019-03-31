@@ -12,8 +12,10 @@ from the internet then response with Plain Text or JSON VIA SMS or MMS (Using Em
 
 ### Demo
 
-![Android App](https://i.imgur.com/LNSiAp3.mp4)
-![Plain Text](https://i.imgur.com/37hzyeM.gifv)
+![Android App](https://i.imgur.com/LNSiAp3.gif)
+
+
+![Plain Text](https://i.imgur.com/37hzyeM.gif)
 
 ### Features:
 
