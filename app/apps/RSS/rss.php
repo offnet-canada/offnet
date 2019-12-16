@@ -139,7 +139,7 @@ class Rss {
         $mysql->query($query);
         //Pull list of all feeds
         echo "Getting list of feeds\n";
-		$query = "SELECT id, url, atom FROM `feed` WHERE `invalid` = '0';";
+		$query = "SELECT id, url, atom FROM `feed`;";
         $results = $mysql->query($query);
         echo "Getting feed information\n";
 		//Pull latest info for each feed
@@ -170,7 +170,7 @@ class Rss {
                     }
                 }
                 $a = 0;
-                foreach ($rss->item as $item) {
+                foreach ($rss->item?$rss->item:$rss->entry as $item) {
                     $a++;
                     $title = $mysql->real_escape_string($item->title);
                     $link = $mysql->real_escape_string($item->link);
@@ -179,7 +179,7 @@ class Rss {
                     } else {
                         $time = $mysql->real_escape_string($item->timestamp);
                     }
-                    $description = strip_tags($item->description);
+                    $description = trim(strip_tags($item->description?$item->description:$item->summary));
                     $description = $mysql->real_escape_string($description);
                     $feed_id = $mysql->real_escape_string($row["id"]);
                     echo "$feed_id, $a, $link, $time, $title\n";
