@@ -1,5 +1,5 @@
 # Archived
-This project was written by me in 2015 before I had an formal software training. It was an interesting project at the time and I had fun building it but if I where to ever come back to it I would rewrite the whole project, this is why I am archiving this project.
+This project was written by me in 2015 before I had an formal software training. It was an interesting project at the time and I had fun building it but if I were to ever come back to it I would rewrite the whole project, this is why I am archiving this project.
 
 # Offnet Server
 
